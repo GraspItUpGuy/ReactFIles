@@ -11,8 +11,9 @@ class App extends Component {
       <div className="App">
       
       <Ptag />
-      <Header />
       <Intro />
+      <Header />
+      
       
     </div>
     );

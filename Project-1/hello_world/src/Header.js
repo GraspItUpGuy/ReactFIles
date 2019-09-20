@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-
+import logo from './logo.svg'
 
 
 
@@ -9,7 +9,7 @@ export default class  Header extends Component {
         <div>
         
            <header className="App-header">
-          {/* <img src={} className="App-logo" alt="logo" /> */}
+          <img src={logo} className="App-logo" alt="logo" />
          
         </header>
         </div>
