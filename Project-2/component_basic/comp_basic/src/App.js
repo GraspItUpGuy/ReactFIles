@@ -21,6 +21,8 @@ render(){
       <div>
         <h2>Sample Data : {this.sayHello("Puneet")} </h2>
         <h2>Sample Data : {this.yourName} </h2>
+
+        <h1>time is : {} </h1>
       </div>
     </div>
   );
