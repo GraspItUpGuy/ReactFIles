@@ -6,8 +6,30 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-      <header className="App-header">
+      <Header />
+    </div>
+    );
+  }
+}
+
+class  Header extends Component {
+  render(){
+    return(
+      <div>
+      <Intro /> 
+         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Ptag />
+      </header>
+      </div>
+    );
+  }
+}
+
+class Ptag extends Component {
+  render(){
+    return(
+      <div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,9 +41,21 @@ class App extends Component {
         >
           Learn React
         </a>
-      </header>
-    </div>
-    )
+      </div>
+    );
   }
 }
+
+
+class Intro extends Component {
+  render(){
+    return(
+      <div>
+        <h1> My First Component</h1>
+      </div>
+    );
+  }
+}
+
+
 export default App;
